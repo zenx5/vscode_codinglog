@@ -24,9 +24,11 @@ function activate(context) {
 	// (revisar el archivo index.js de esa carpeta)
 	// Los commandos deben estar definidos tambien en el archivo package.json
 	// en la clave "contributes"
-	console.log(commands)
 	context.subscriptions.push( commands.startlog );
 	context.subscriptions.push( commands.show );
+	//context.subscriptions.push( commands.push );
+	//context.subscriptions.push( commands.stoplog );
+	
 }
 
 // this method is called when your extension is deactivated
