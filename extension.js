@@ -1,7 +1,7 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
-const vscode = require('vscode');
-const commands = require('./src/commands/index');
+// const vscode = require('vscode');
+const commands = require('./src/commands/index.js');
 
 
 // this method is called when your extension is activated
@@ -24,6 +24,7 @@ function activate(context) {
 	// (revisar el archivo index.js de esa carpeta)
 	// Los commandos deben estar definidos tambien en el archivo package.json
 	// en la clave "contributes"
+	console.log(commands)
 	context.subscriptions.push( commands.startlog );
 	context.subscriptions.push( commands.show );
 }

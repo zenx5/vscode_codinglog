@@ -1,6 +1,6 @@
 const vscode = require('vscode');
 
-const { keysCount } = require('./src/log/GeneralStats');
+const { keysCount } = require('../log/GeneralStats');
 
 const startlog = vscode.commands.registerCommand('codinglog.startlog', async function () {
     // The code you place here will be executed every time your command is executed
