@@ -19,10 +19,10 @@
         "command": "codinglog.startlog",
         "title": "Start Log"
       },
-	  {
-		"command": "codinglog.show",
-		"title": "Show Log"
-	  }
+	    {
+	  	  "command": "codinglog.show",
+		    "title": "Show Log"
+	    }
     ]
   },
   "scripts": {
