@@ -2,8 +2,8 @@ const vscode = require('vscode');
 
 const { keysCount } = require('../log/Stats');
 
-const startlog = function(context){
-    vscode.commands.registerCommand('codinglog.startlog', async function () {
+const startLog = function(context){
+    vscode.commands.registerCommand('codinglog.startLog', async function () {
     // The code you place here will be executed every time your command is executed
 
     // Display a message box to the user
@@ -19,5 +19,5 @@ const startlog = function(context){
 };
 
 module.exports = {
-    startlog
+    startLog
 }

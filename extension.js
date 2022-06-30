@@ -24,8 +24,11 @@ function activate(context) {
 	// (revisar el archivo index.js de esa carpeta)
 	// Los commandos deben estar definidos tambien en el archivo package.json
 	// en la clave "contributes"
-	context.subscriptions.push( commands.startlog(context) );
+	console.log( 'initing' )
+	context.subscriptions.push( commands.startLog(context) );
 	context.subscriptions.push( commands.show(context) );
+	context.subscriptions.push( commands.setMail(context) );
+	console.log( context.subscriptions )
 	//context.subscriptions.push( commands.push );
 	//context.subscriptions.push( commands.stoplog );
 	
