@@ -10,18 +10,22 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:codinglog.startlog"
+    "onCommand:codinglog.startLog"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "codinglog.startlog",
+        "command": "codinglog.startLog",
         "title": "Start Log"
       },
 	    {
 	  	  "command": "codinglog.show",
 		    "title": "Show Log"
+	    },
+	    {
+	  	  "command": "codinglog.inputEmail",
+		    "title": "Show Email"
 	    }
     ]
   },

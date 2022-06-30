@@ -1,7 +1,9 @@
 const { show } = require('./show.js');
-const { startlog } = require('./startlog.js');
+const { startLog } = require('./startLog.js');
+const { inputEmail } = require('./inputEmail.js');
 
 module.exports = {
-    startlog,
-    show
+    startLog,
+    show,
+    inputEmail
 }
