@@ -16,7 +16,9 @@ const startLog = function(context){
         })
         vscode.window.showInformationMessage('Codinglog is now active!');
     }else{        
-        vscode.window.showErrorMessage("Save Workspace before")        
+        console.log('context:', context ) 
+//        console.log('uri:', context.logUri.fsPath )
+        vscode.window.showErrorMessage("Starlog, L19: Save Workspace before, ")
         //vscode.window.showInformationMessage('Codinglog is not active!');
     }    
     })

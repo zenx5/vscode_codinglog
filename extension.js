@@ -28,7 +28,7 @@ function activate(context) {
 	context.subscriptions.push( commands.startLog(context) );
 	context.subscriptions.push( commands.show(context) );
 	context.subscriptions.push( commands.setMail(context) );
-	console.log( context.subscriptions )
+	//console.log( 'extension.js, L31: ', context.subscriptions )
 	//context.subscriptions.push( commands.push );
 	//context.subscriptions.push( commands.stoplog );
 	
